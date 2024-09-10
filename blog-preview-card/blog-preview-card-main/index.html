@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #F4d04e;
+    }
+    p{
+      font-family: 'Figtree', sans-serif;
+      line-height: 150%;
+      letter-spacing: 0px;
+    }
+    #learning{
+      font-size: 14px;
+    }
+    #date{
+      font-size: 14px;
+    }
+    #title{
+      font-size: 24px;
+    }
+    #detail{
+      font-size: 16px;
+    }
+    #name{
+      font-size: 14px;
+    } 
+  </style>
+</head>
+<body>
+  <div class="h-screen flex items-center justify-center">
+    <div class="w-[384px] h-[522px] border-2 border-r-8 border-b-8 border-black rounded-2xl bg-white">
+      <div class="ml-[24px]">
+        <div class="mt-[24px]">
+          <img src="assets/images/illustration-article.svg" alt="" class="rounded-xl">
+        </div>
+        <div class="mt-[24px]">
+          <div class="mt-[24px]">
+            <p id="learning" class="font-bold"><span class="bg-[#F4d04e] p-2 rounded-md">Learning</span></p>
+          </div>
+        
+          <div class="mt-[16px]">
+            <p id="date" class="font-medium">Published 21 Dec 2023</p>
+          </div>
+        
+          <div class="mt-[10px]">
+            <p id="title" class="text-black-900 font-extrabold">HTML & CSS foundations</p>
+          </div>
+        
+          <div id="detail" class="text-gray-500 font-medium mt-[12px]">
+            These languages are the backbone of every website, defining structure, content, and presentation.
+          </div>
+        </div>
+      
+        <div class="flex mt-[24px]">
+          <img src="assets/images/image-avatar.webp" alt="" class="w-[32px]">
+          <p id="name" class="ml-2 flex place-items-center font-bold">Greg Hooper</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
